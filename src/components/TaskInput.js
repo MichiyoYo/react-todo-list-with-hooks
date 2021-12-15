@@ -34,8 +34,9 @@ function TaskInput(props) {
     //focus on the input every time the component re-renders after status update
     inputRef.current.focus();
     //clean up the field
+    const currInputRef = inputRef.current;
     return () => {
-      inputRef.current.value = "";
+      currInputRef.value = "";
     };
   });
 
