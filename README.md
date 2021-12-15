@@ -6,7 +6,8 @@ Click here for [live demo](https://react-todo-list-with-hooks-67ix1m9ws-crileste
 
 ## Tech Stach
 
-This app is made uniquely with React. I utilized the following Hooks in the implementation
+This app is made uniquely with React and deployed on Vercel.
+I utilized the following React hooks in the implementation
 
 - useReducer()
 - useRef()
