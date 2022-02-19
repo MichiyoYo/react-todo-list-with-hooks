@@ -42,7 +42,9 @@ function TaskInput(props) {
 
   return (
     <div>
-      <h2>Cree's To-Do List 🧘 🥕 📖</h2>
+      <h2>
+        Cree's To-Do List <span style={{ display: "block" }}>🧘 🥕 📖</span>
+      </h2>
       <InputField type="text" placeholder="Add a task" ref={inputRef} />
       <AddBtn
         onClick={() => {
